@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <h1 id="welcome-h"></h1>
+<div id="container">
+    <div id="register-div" class="div-class" >
+        <input type="text" name="name" id="name-reg-input" required placeholder="Enter Username">
+        <br>
+        <input type="text" name="email" id="email-reg-input" required placeholder="Enter E-mail">
+        <br>
+        <input type="password" name="password" id="password-reg-input" required placeholder="Enter Password">
+        <br>
+        <button id="register-btn" type="submit">Register</button>
+        <br>
+        <button onclick="toLogin()" id="tologin-btn">Go To The Log-in Page</button>
+        </div>
+
+
+    <div id="login-div" class="div-class" >
+        <input type="text" name="name" id="name-input" required placeholder="Enter Your Username">
+        <br>
+        <input type="password" name="password" id="password-input" required placeholder="Enter Your Password">
+        <br>
+        <button id="login-btn" type="submit">Log In</button>
+        <br>
+        <button onclick="toRegister()" id="toregister-btn">Go To The Register Page</button>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
